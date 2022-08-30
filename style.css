@@ -1,0 +1,97 @@
+.sign-in{
+    background-color: #126DA9ff;
+    color: white;
+}
+.wall{
+    margin-bottom: 5px;
+}
+.card{
+    padding: 5px;
+}
+.carousel-item{
+    height: 42rem;
+    /* min-height: 500px; */
+    background: no-repeat scroll center scroll;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.7;
+}
+.carousel-caption{
+    bottom: 180px;
+    padding-left:100px ;
+    padding-right:100px ;
+}
+.carousel-caption h1{
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.btn-1{
+    color: white;
+    background-color: #1E85D8ff;
+}
+.btn-2{
+    color: #1E85D8ff;
+    background-color: white;
+}
+
+@media all and (max-width: 1018px){
+    .carousel-caption h1{
+        color: white;
+        font-size: 75px;
+        font-weight: 500;
+    }
+    .carousel-caption p{
+        font-size: 14px;
+        font-weight: 500;
+        opacity: 0.7;
+    }
+}
+@media all and (max-width: 900px){
+    .carousel-caption h1{
+        color: white;
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+        font-weight: 500;
+        opacity: 0.7;
+    }
+    
+}
+@media all and (max-width: 660px){
+    .carousel-caption h1{
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .carousel-caption p{
+        font-size: 11px;
+        font-weight: 500;
+        opacity: 0.7;
+    }
+    
+}
+
+
+footer a:hover{
+    color: white;
+}
+
